@@ -1,0 +1,70 @@
+.qr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.url-input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.generate-button,
+.download-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.generate-button {
+  background-color: #28a745; /* Green color for generate button */
+}
+
+.generate-button:hover {
+  background-color: #218838;
+}
+
+.download-button {
+  background-color: #007bff; /* Blue color for download button */
+  margin-top: 20px;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+.qr-code-stand {
+  position: relative;
+  width: 757px; /* Desired width */
+  height: 1280px; /* Desired height */
+  background-color: #ffffff; /* Optional: Add a background color */
+}
+
+.stand-image {
+  width: 100%; /* Make the stand image fill the container */
+  height: 100%; /* Make the stand image fill the container */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Ensure the stand image is below the QR code */
+}
+
+.qr-code {
+  position: absolute;
+  top: 48.5%; /* Adjust to position the QR code vertically */
+  left: 75%; /* Adjust to position the QR code horizontally */
+  transform: translate(-50%, -50%); /* Center the QR code */
+  z-index: 2; /* Ensure the QR code is above the stand image */
+}
