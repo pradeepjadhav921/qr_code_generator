@@ -57,7 +57,7 @@ const QRCodeWithStand = () => {
         >
           {/* QR Code */}
           <div className="qr-code">
-            <QRCodeSVG value={generatedUrl} size={350} /> {/* Use QRCodeSVG */}
+            <QRCodeSVG value={generatedUrl} size={325} /> {/* Use QRCodeSVG */}
           </div>
 
           {/* Stand Image */}

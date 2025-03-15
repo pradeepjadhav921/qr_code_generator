@@ -63,8 +63,8 @@
 
 .qr-code {
   position: absolute;
-  top: 48.5%; /* Adjust to position the QR code vertically */
-  left: 75%; /* Adjust to position the QR code horizontally */
+  top: 52%; /* Adjust to position the QR code vertically */
+  left: 77%; /* Adjust to position the QR code horizontally */
   transform: translate(-50%, -50%); /* Center the QR code */
   z-index: 2; /* Ensure the QR code is above the stand image */
 }
